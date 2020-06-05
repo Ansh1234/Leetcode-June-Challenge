@@ -11,3 +11,5 @@ class Solution:
         total_cost = sum([x[0] for x in sorted_costs[:length]]) + sum([x[1] for x in sorted_costs[length:]])
             
         return total_cost
+      
+      
