@@ -3,7 +3,6 @@ class Solution:
         self.traverse(root)
         return root
         
-        
     def traverse(self, node):
         if (node == None):
             return
