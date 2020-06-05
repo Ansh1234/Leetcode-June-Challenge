@@ -16,3 +16,6 @@ class Solution:
             node.val = node.next.val
             node = node.next
         prev.next = None
+
+        
+        
