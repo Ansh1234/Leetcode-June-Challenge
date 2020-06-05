@@ -9,3 +9,4 @@ class Solution:
         self.traverse(node.left)
         self.traverse(node.right)
         node.left, node.right = node.right, node.left
+        
